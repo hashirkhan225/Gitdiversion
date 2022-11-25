@@ -1,0 +1,47 @@
+.heading{
+    position: relative;
+    color: black;
+    top: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .rides{
+    position: relative;
+    color: black;
+    top: 120px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .Jumbotron{
+    color:rgb(202, 5, 5);
+    margin-top: 130px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .card{
+    top: 70px;
+    margin-left:25px;
+    float: left;
+    text-align: center;
+}
+.card2{
+  margin-top: 130px;
+  margin-left:25px;
+  float: left;
+  text-align: center;
+}
+
+/* <show> */
+.shows{
+  position: relative;
+  color: black;
+  top: 40px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Jumbotron2{
+  color:rgb(202, 5, 5);
+  margin-top: 100px;
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

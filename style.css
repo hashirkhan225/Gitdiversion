@@ -1,0 +1,217 @@
+/* Container needed to position the button. Adjust the width as needed */
+/* .container {
+    position: relative;
+    width: 50%;
+  } */
+  
+  /* Make the image responsive */
+  /* .container img {
+    width: 100%;
+    height: auto;
+  } */
+  
+  /* Style the button and place it in the middle of the container/image */
+  /* .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+  } */
+  #sliderbtn{
+    position: relative;
+    top:-10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(48, 48, 48);
+    opacity: 80%;
+    color: white;
+  }
+  #sliderbtn:hover{
+    background-color: black;
+    color: orange;
+  }
+  #services{
+    background-color: black;
+    color: white;
+    margin-top: -140px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  }
+  #cardbtn{
+    position: relative;
+    margin-top:-30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(48, 48, 48);
+    opacity: 80%;
+    color: white;
+  }
+  #cardbtn:hover{
+    background-color: black;
+    color: orange;
+  }
+
+  /* CARD ANIMATIONS */
+  body{
+
+    background-color:white;
+}
+
+
+.wrapper{
+
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+
+.card{
+
+    height: 380px;
+    width: 280px;
+    background-color:rgb(255, 153, 0);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center!important;
+
+}
+
+.card::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    top:-50%;
+    background-color:black;
+    transform: skewY(345deg);
+    transition:1s ease-in;
+  
+}
+
+
+.card:hover::before{
+    top:-70%;
+    transform: skewY(390deg);
+}
+
+.card .image{
+
+    position: absolute;
+    
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card .image img{
+
+    max-width: 100%;
+    transition: 2s ease-in;
+}
+
+.card:hover .image img{
+
+    width: 80%;
+}
+
+.about-product{
+
+    position: absolute;
+    color:black;
+    bottom: -50px !important;
+    text-align: center;
+    left: 20%;
+    transition: 1s ease-out;
+}
+
+
+.card:hover .about-product{
+
+   bottom: 20px !important;
+}
+
+
+.buy-now{
+    
+    color:orange;
+    background-color:black;
+    border-color: black ;
+    width: 160px;
+    margin-top: 20px;
+}
+
+
+.buy-now:focus{
+    
+    box-shadow: none;
+}
+
+.buy-now:hover{
+    color:black;
+    background-color:orange;
+    border-color:black;
+
+}
+/* <!FOOTER> */
+
+.text-small {
+  font-size: 0.9rem;
+}
+.h1{
+  color: orange;
+  font-size: x-large;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: orange;
+}
+
+.form-control {
+  background: black;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #212529;
+}
+
+footer {
+  background: #212529;
+}
+
+
+/* ==========================================
+    CUSTOM UTILS CLASSES
+  ========================================== */
+  body, html {
+    height: 100%;
+  }
+
+
+  /* PLACES PAGE */

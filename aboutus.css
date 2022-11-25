@@ -1,0 +1,33 @@
+.heading{
+    position: relative;
+    color: black;
+    top: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .Jumbotron{
+    color:black;
+    margin-top: 120px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .heading2{
+    position: relative;
+    color: black;
+    top: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .Jumbotron2{
+    color:black;
+    margin-top: 100px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .heading3{
+    position: relative;
+    color: black;
+    top: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }

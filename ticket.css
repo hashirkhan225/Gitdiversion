@@ -1,0 +1,39 @@
+.heading{
+    position: relative;
+    color: black;
+    top: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .Jumbotron{
+    color:black;
+    margin-top: 120px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .gallery{
+    position: relative;
+    color: black;
+    top: 110px;
+    text-align: center;
+   }
+#sliderbtn{
+    position: relative;
+    top:10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:red;
+    color: white;
+    border-color: red;
+  }
+  #sliderbtn:hover{
+    background-color: black;
+    color: white;
+    border-color: black;
+  }
+  #btn{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+
+  }
